@@ -8,6 +8,7 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -27,7 +28,14 @@ const Footer = () => {
               <h1>Contact Us</h1>
             <div className="contactUs">
               <span><FaPhoneVolume /> <span>+880-1862609526</span></span>
-              <span><AiOutlineMail /> <span>abdulla@gmail.com</span></span>
+              <span><AiOutlineMail /> <span>abdullanur0000@gmail.com</span></span>
+            </div>
+          </div>
+          <div className="secondRow">
+              <h1>Booked Now</h1>
+            <div className="contactUs">
+              <span><FaPhoneVolume /> <span>+880-1862899830</span></span>
+              <span><AiOutlineMail /> <span>abdullanur1234gmail.com</span></span>
             </div>
           </div>
           <div className="secondRow">

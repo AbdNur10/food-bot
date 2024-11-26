@@ -71,3 +71,7 @@ color:black
   column-gap: 1rem;
 }
 
+.active {
+  color: #ff6347; /* Example active color */
+  font-weight: bold;
+}

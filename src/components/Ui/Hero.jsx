@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../../assets/Hero.png";
 import "../../styles/hero.css";
-import hero2 from "../../assets/Testimonial.png";
+
 
 import card1 from "../../assets/card1.png";
 import card2 from "../../assets/card2.png";

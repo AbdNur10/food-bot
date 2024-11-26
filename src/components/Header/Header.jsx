@@ -4,23 +4,23 @@ import '../../styles/header.css'
 import { RiShoppingBag4Line } from "react-icons/ri";
 import { FaRegUser } from "react-icons/fa";
 
+
+
+
 const nav__links=[
     {
-        path:'',
+        path:'/',
         display:'Home'
     },
     {
-        path:'',
+        path:'/about',
         display:'About'
     },
     {
-        path:'',
+        path:'/browse',
         display:'Browse Menu'
     },
-    {
-        path:'',
-        display:'Track Order'
-    },
+
 ]
 
 const Header = () => {
@@ -35,20 +35,26 @@ const Header = () => {
                     <h1>Food Bot</h1>
                 </div>
                 <div className='nav__item-wrap'>
-                    {
+                    
+                    {/* <Link >Home</Link> */}
+                     {
                         nav__links.map((item,index)=>(
-                            <div className="nav__items">
-                                <h2>{item.display}</h2>
-                            </div>
+                            <a href={item.path} style={{
+                                textDecoration:'none',
+                            }}  className="nav__items" key={index}>
+                               
+                               <h2>{item.display}</h2>
+                               
+                            </a>
                         ))
-                    }
+                    } 
                 </div>
-                <div className="cart__registration">
+                <a href='/login' className="cart__registration">
                 <RiShoppingBag4Line  size={35} color='white'/>
                 <div className="box">
                    <span> <FaRegUser/> </span> Login
                 </div>
-                </div>
+                </a>
             </div>
         </div>
     </header>
