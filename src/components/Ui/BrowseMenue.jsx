@@ -305,7 +305,7 @@ const BrowseMenu = () => {
                 marginTop: '10px',
                 padding: '10px 15px',
                 border: 'none',
-                backgroundColor: '#28a745',
+                backgroundColor: '#ec441f',
                 color: 'white',
                 cursor: 'pointer',
                 borderRadius: '5px',
