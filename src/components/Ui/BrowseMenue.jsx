@@ -293,12 +293,12 @@ const BrowseMenu = () => {
               style={{ width: '100%', borderRadius: '8px' }}
             />
             <h3>{item.name}</h3>
-            <p>{item.desc}</p>
+            <p style={{marginBottom:2}}>{item.desc}</p>
             <p>
-              <strong>Price:</strong> ${item.price}
+              <strong style={{marginBottom:2}}>Price:</strong> ${item.price}
             </p>
             <p>
-              <strong>Rating:</strong> {item.rating}
+              <strong style={{marginBottom:2}}>Rating:</strong> {item.rating}
             </p>
             <button
               style={{
