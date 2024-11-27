@@ -259,7 +259,7 @@ const BrowseMenu = () => {
           style={{
             padding: '20px',
             border: '1px solid #ccc',
-            borderRadius: '5px',
+            borderRadius: '10px',
             width: '300px',
           }}
           value={search}
