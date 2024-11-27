@@ -240,9 +240,9 @@ const BrowseMenu = () => {
           <button
             key={category}
             style={{
-              padding: '20px 20px',
+              padding: '15px 10px',
               border: 'none',
-              backgroundColor: currentCategory === category ? '#ff6347' : '#007BFF',
+              backgroundColor: currentCategory === category ? '#fff' : '#ff6347',
               color: 'white',
               cursor: 'pointer',
               borderRadius: '5px',
