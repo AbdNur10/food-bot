@@ -4,6 +4,7 @@
     background: #ec441f;
     bottom: 0;
     position: relative;
+    overflow-x: hidden;
 }
 .footer__wrapper{
     display: flex;
